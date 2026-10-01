@@ -201,7 +201,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
 </div></div>
 
 <header class="header"><div class="wrap">
-  <a class="logo" href="#top" aria-label="Aziza Bakery"><img src="img/logo.png" alt="Aziza Bakery" width="384" height="127" onerror="this.onerror=null;this.src=this.getAttribute('src').replace('img/','')"></a>
+  <a class="logo" href="#top" aria-label="Aziza Bakery"><img src="img/logo.png" alt="Aziza Bakery" width="384" height="127"></a>
   <nav class="nav" aria-label="Bo'limlar">
     <a href="#katalog">Katalog</a><a href="#qanday">Qanday buyurtma beriladi</a><a href="#manzil">Manzil</a>
   </nav>
@@ -222,7 +222,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
     <ul class="hero-points"><li>1 kg va 2 kg qutilar</li><li>Ulgurji hajmlar</li><li>O'z sexmizda tayyorlanadi</li></ul>
   </div>
   <figure class="mascot" style="margin:0 auto">
-    <img src="img/mascot.png" alt="Aziza — qutidan qarab turgan oshpaz qiz" width="640" height="640" onerror="this.onerror=null;this.src=this.getAttribute('src').replace('img/','')">
+    <img src="img/mascot.png" alt="Aziza — qutidan qarab turgan oshpaz qiz" width="640" height="640">
     <div class="badge"><i>♥</i><div><b>Siz izlagan ta'm</b><small>2006-yildan beri</small></div></div>
   </figure>
 </div></section>
@@ -357,7 +357,7 @@ footer .wrap{display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-betw
         '</div></div>';
     }).join("");
     return '<article class="card" data-cat="' + p.cat + '">' +
-      '<img src="' + p.img + '" alt="' + p.name + '" loading="lazy" width="738" height="579" onerror="this.onerror=null;this.src=this.getAttribute(\'src\').replace(\'img/\',\'\')">' +
+      '<img src="' + p.img + '" alt="' + p.name + '" loading="lazy" width="738" height="579">' +
       '<div class="card-body"><span class="ptag">' + p.tag + '</span><h3>' + p.name + '</h3><p class="desc">' + p.desc + '</p>' + rows + '</div></article>';
   }).join("");
 
